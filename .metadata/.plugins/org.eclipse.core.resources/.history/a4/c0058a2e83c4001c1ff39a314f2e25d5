@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome Admin</title>
+</head>
+<body>
+<form action = "Secondservlet" method = "Post">
+	Enter Student Name: <input type="text" name = "Name">
+	Enter Student Subject: <input type="text" name = "Subject">
+	<input type="Submit" value = "Next">
+</form>
+
+</body>
+</html>

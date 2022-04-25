@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Details Entered Successfully!</title>
+
+</head>
+<body>
+<form action = "Thirdservlet" method = "Post">
+	<select name="Teacher" id="Teacher">
+  <option value="Teacher1">Jyothi</option>
+  <option value="Teacher2">Asha</option>
+  <option value="Teacher3">Venkat</option>
+  <option value="Teacher4">Jyoshna</option>
+</select>
+	<select name="Teacsub" id="Teacsub">
+  <option value="Science">Science</option>
+  <option value="Math">Math</option>
+  <option value="English">English</option>
+  <option value="Hindi">Hindi</option>
+</select>
+	<input type="Submit" value = "Next">
+</form>
+</body>
+</html>

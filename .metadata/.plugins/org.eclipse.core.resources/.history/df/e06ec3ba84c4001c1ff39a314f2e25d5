@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+</head>
+<body>
+<form action="Firstservlet" method="Post">
+	Enter Email: <input type="email" name = "Email">
+	Enter Password: <input type="password" name = "Password">
+	<input type = "Submit" value = "Next">
+</form>
+
+</body>
+</html>

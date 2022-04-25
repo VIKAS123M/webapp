@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Page</title>
+</head>
+<body>
+<form action="Firstservlet" method="Post">
+	<select name="How do you want to login" id="login">
+  <option value="type1">Admin/Lecturer</option>
+  <option value="type2">Student</option>
+</select>
+ if(value==type1)
+ {
+ 	Enter Email: <input type="email" name = "Email">
+	Enter Password: <input type="password" name = "Password">
+	<input type = "Submit" value = "Next">
+}
+if(value==type2){
+return "Student portal not yet available";
+}
+</form>
+
+</body>
+</html>
